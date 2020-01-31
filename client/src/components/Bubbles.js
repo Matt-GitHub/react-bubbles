@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Pack } from "@potion/layout";
-import { Svg, Circle } from "@potion/element";
+import { Svg, Circle, LineRadial } from "@potion/element";
 
 const Bubbles = ({ colors }) => {
   const [bubbleData, setBubbleData] = useState([]);
@@ -51,3 +51,14 @@ const Bubbles = ({ colors }) => {
 };
 
 export default Bubbles;
+
+// return (
+//   <Circle
+//     key={key}
+//     cx={x}
+//     cy={y}
+//     r={r}
+//     fill={colors[i].code.hex}
+//   />
+// );
+// }
